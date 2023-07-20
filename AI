@@ -1,0 +1,57 @@
+AI
+https://chat.openai.com/ [embed in LMS]?
+
+Use the following code in Chat GPT to help you build a personal website and then host the site on your Github Repository using https://pages.github.com/ [embed in LMS]?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Website</a>
+    </nav>
+  </header>
+  
+  <main class="container mt-4">
+    <h1>Welcome to My Website</h1>
+    <hr>
+    
+    <section>
+      <h2>About Me</h2>
+      <p>Name: [Your Name]</p>
+      <p>Age: [Your Age]</p>
+      <p>Location: [Your Location]</p>
+    </section>
+    
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>[Interest 1]</li>
+        <li>[Interest 2]</li>
+        <li>[Interest 3]</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email: [Your Email Address]</p>
+      <p>Phone: [Your Phone Number]</p>
+      <p>Website: [Your Website URL]</p>
+    </section>
+  </main>
+  
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

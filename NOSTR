@@ -1,0 +1,44 @@
+NOSTR
+https://github.com/nostr-protocol/nostr [embed in LMS]?
+Follow this repository - and read the about the protocol
+
+https://astral.ninja/ [embed in LMS]?
+Generate a private/public key pair for a new NOSTR instance and share your public key with the group in our new student Google Space https://mail.google.com/chat/u/0/#chat/space/AAAAnD8VkrY [embed in LMS]?
+
+E.G: npub1cyla8qgt9gv8y6ydv8s2prt89h8afc0sr2kaz64ryjmlpdrzxm4qwlh53q
+
+Multiple Choice Questions:
+What is the primary advantage of Nostr over other social network solutions like Twitter and Mastodon?
+a) Nostr uses P2P techniques for improved scalability and security.
+b) Nostr relies on a trusted central server for better performance.
+c) Nostr is designed to be a censorship-resistant global network without any trusted central server.
+d) Nostr allows users to host their own servers for complete control over their data.
+Answer: c) Nostr is designed to be a censorship-resistant global network without any trusted central server.
+
+How does Nostr ensure that users do not lose their identities and follower base if they get banned from a relay?
+a) Users can appeal the ban and regain access to the relay.
+b) Nostr automatically migrates banned users' data to a new relay.
+c) Banned users can still publish to other relays without losing their public key identity.
+d) Nostr implements a reputation system to track banned users' interactions.
+Answer: c) Banned users can still publish to other relays without losing their public key identity.
+
+What is the main role of a relay in the Nostr network?
+a) To store all user posts and interactions in a distributed ledger.
+b) To process and verify cryptographic signatures of user posts.
+c) To ensure P2P synchronisation of user data across the network.
+d) To accept posts from some users and forward them to others without any communication with other relays.
+Answer: d) To accept posts from some users and forward them to others without any communication with other relays.
+
+How does Nostr handle spam prevention on its network?
+a) Relays can charge a fee or require authentication for users to publish content.
+b) Nostr relies on AI algorithms to filter out spam content.
+c) Each user can manually block other users to prevent spam.
+d) Spam prevention is not a concern for Nostr since it's a decentralised network.
+Answer: a) Relays can charge a fee or require authentication for users to publish content.
+
+What is the format of a user's identity on Nostr?
+a) An email address associated with the user's account.
+b) A domain name controlled by a third-party server.
+c) A public key used for cryptographic signing and verification.
+d) A username and password combination for authentication.
+Answer: c) A public key used for cryptographic signing and verification.

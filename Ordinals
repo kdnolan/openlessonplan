@@ -1,0 +1,45 @@
+##Ordinals
+
+Read the following document and answer the questions: Ordinals Documentation [embed in LMS]
+
+What is the purpose of the ord server command in the context of an ordinal block explorer instance?
+
+A) To generate a new block on the blockchain
+B) To run a local block explorer
+C) To create a YAML config file
+D) To monitor user-generated content
+Answer: B
+
+What is the significance of "exotic" satoshis in the context of ordinal theory?
+
+A) They are a type of transaction output
+B) They are a theoretical concept related to ordinal numbers
+C) They are subjective and based on individual criteria
+D) They are a type of YAML config file
+Answer: C
+
+What is the recommended approach for ordinal theorists seeking out exotics?
+
+A) To use a pre-existing list of exotic satoshis
+B) To use a pre-existing YAML config file
+C) To monitor user-generated content on an ordinal block explorer instance
+D) To devise their own criteria for identifying exotic satoshis
+Answer: D
+
+What is the responsibility of an individual running an ordinal block explorer instance with respect to unlawful content?
+
+A) To report unlawful content to the authorities
+B) To create a YAML config file to prevent unlawful content from being displayed
+C) To understand their responsibilities and decide on an appropriate moderation policy
+D) To monitor user-generated content on the block explorer instance
+Answer: C
+
+What is the purpose of the --config option in the context of an ordinal block explorer instance?
+
+A) To generate a new block on the blockchain
+B) To create a new YAML config file
+C) To monitor user-generated content on the block explorer instance
+D) To load a YAML config file that prevents certain inscriptions from being displayed
+Answer: D
+
+Watch the following tutorial and if you want to, use gamma to create your own ordinal: Gamma Tutorial [embed in LMS] Gamma Ordinals [embed in LMS]

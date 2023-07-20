@@ -1,0 +1,66 @@
+# Blockchain Analysis
+
+Use the following tools for real-time blockchain analysis:
+- [https://mempool.space/](https://mempool.space/) [embed in LMS]
+- [https://bits.monospace.live/](https://bits.monospace.live/) - already embedded in LMS
+
+Read the following whitepaper:
+- [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf) [embed in LMS]
+
+## Multiple Choice Questions
+
+**Question 1:** What does a Bitcoin Transaction ID (TXID) typically look like?
+
+a) A random alphanumeric string, composed of letters and numbers.
+b) A unique 64-character hexadecimal code, starting with "0x".
+c) A 256-bit binary number, represented as a sequence of 0s and 1s.
+d) A public key associated with the sender's Bitcoin wallet.
+
+**Correct answer:** b) A unique 64-character hexadecimal code, starting with "0x".
+
+Explanation: A Bitcoin Transaction ID (TXID) is a unique identifier for a specific transaction on the Bitcoin blockchain. It is represented as a 64-character hexadecimal code, which means it contains characters from the set of 0-9 and A-F (e.g., 0x2a7c87453f1d97a3e1bcba9c3e57c75dc980f26257e773da5303543db34f0e8d). This TXID helps users and explorers to locate and verify transactions on the blockchain.
+
+**Question 2:** What does a private key look like on the Bitcoin blockchain?
+
+A) A randomly generated 256-bit number
+B) A username and password combination
+C) A public address for receiving Bitcoin
+D) A sequence of English words
+
+**Answer:** A) A randomly generated 256-bit number
+
+**Question 3:** Which format is commonly used to represent a private key in the Bitcoin blockchain?
+
+A) Base64 encoded string
+B) JSON format
+C) 64-character hexadecimal string
+D) IP address and port number
+
+**Answer:** C) 64-character hexadecimal string
+
+**Question 4:** What is the purpose of the proof-of-work system in Bitcoin?
+
+A) To prevent double-spending
+B) To provide strong control of ownership
+C) To record a public history of transactions
+D) To enforce rules and incentives
+
+**Answer:** C) To record a public history of transactions
+
+**Question 5:** How does the Bitcoin network handle messages between nodes?
+
+A) Messages are routed to a specific destination
+B) Messages are delivered on a best effort basis
+C) Messages are encrypted and sent through a central server
+D) Messages are broadcast to all nodes simultaneously
+
+**Answer:** B) Messages are delivered on a best effort basis
+
+**Question 6:** What is the relationship between the probability of a successful attack on the Bitcoin network and the number of honest nodes controlling CPU power?
+
+A) The probability increases linearly with the number of honest nodes
+B) The probability decreases linearly with the number of honest nodes
+C) The probability drops off exponentially with the number of honest nodes
+D) The probability is not affected by the number of honest nodes
+
+**Answer:** C) The probability drops off exponentially with the number of honest nodes

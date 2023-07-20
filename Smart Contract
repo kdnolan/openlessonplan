@@ -1,0 +1,41 @@
+# Smart Contract
+
+Use the following guide and template to write a clarity smart contract: [Clarity Crash Course](https://docs.stacks.co/docs/clarity/crash-course) [embed in LMS]
+
+```clarity
+(define-public (transfer-tokens
+                  (amount uint)
+                  (to principal))
+  (require (>= amount 0))
+  (transfer (contract-address this)
+            to
+            amount
+            (x-get-block-height))
+  (ok u"Tokens transferred successfully."))
+
+(define-read-only (get-balance (address principal))
+  (balance address))
+
+(define-read-only (get-my-balance)
+  (get-balance (caller)))
+
+(define-public (mint-tokens
+                  (amount uint)
+                  (to principal))
+  (require (caller? u"ST1P3RZ3NTJ0ATC0J72SQKRB4JMJBRYF5MM4W3J5P6"))
+  (require (>= amount 0))
+  (transfer (contract-address this)
+            to
+            amount
+            (x-get-block-height))
+  (ok u"Tokens minted successfully."))
+This contract defines three functions:
+
+transfer-tokens: Allows users to transfer tokens to another address.
+get-balance: A read-only function that returns the balance of a specified address.
+mint-tokens: A function to mint new tokens. Please note that the require (caller? u"ST1P3RZ3NTJ0ATC0J72SQKRB4JMJBRYF5MM4W3J5P6") line restricts this function to be called only by the address with the principal ID "ST1P3RZ3NTJ0ATC0J72SQKRB4JMJBRYF5MM4W3J5P6". You should replace this address with the actual address of your token's issuer.
+Please keep in mind that this is a simple example to illustrate the syntax of Clarity. In a real-world scenario, you would need to add more robust features, error handling, and security measures to your smart contract.
+
+To deploy and interact with Clarity smart contracts on the Stacks blockchain, you would use tools like the Stacks 2.0 SDK or Clarity CLI. Make sure to familiarize yourself with the platform and its development environment before deploying a smart contract to a live network.
+
+vbnet

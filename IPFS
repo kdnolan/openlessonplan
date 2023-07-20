@@ -1,0 +1,43 @@
+IPFS
+Read the following whitepaper and answer the following questions
+https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps [embed in LMS]?
+
+What is the primary advantage of using IPFS over HTTP for file distribution?
+a) Lower latency
+b) Decentralised distribution
+c) Strong backwards compatibility
+d) Greater scalability
+Answer: b) Decentralised distribution 
+
+ Which of the following is NOT a potential application of IPFS?
+a) Database
+b) Communications platform
+c) Content delivery network
+d) Social media platform
+Answer: d) Social media platform 
+
+ What is the Merkle DAG data model used for in IPFS?
+a) Caching and distribution
+b) Versioning and caching
+c) Versioning and distribution
+d) Versioning, caching, and distribution
+Answer: d) Versioning, caching, and distribution 
+
+ What is incentivized block exchange in IPFS?
+a) A system for rewarding users who contribute the most to the network
+b) A way to ensure that blocks are exchanged in a fair and efficient manner
+c) A method for preventing malicious nodes from disrupting the network
+d) A technique for reducing latency and improving throughput
+Answer: b) A way to ensure that blocks are exchanged in a fair and efficient manner 
+
+ Which of the following is an example of a successful repurposing of an existing application for file distribution?
+a) IPFS
+b) HTTP
+c) BitTorrent
+d) Linux distributions
+Answer: c) BitTorrent
+
+
+
+https://docs.ipfs.tech/install/ipfs-desktop/ [embed in LMS]?
+Install IPFS and upload your avatar that you created via ready player me to create a unique hash of the file, then share that hash in our newly created Google Spaces https://mail.google.com/chat/u/0/#chat/space/AAAAnD8VkrY [embed in LMS]?

@@ -1,0 +1,48 @@
+Lightning Network
+https://lightning.network/lightning-network-paper.pdf [embed in LMS]?
+Read the above whitepaper to get an understanding of the lightning network.
+
+https://getalby.com/ [embed in LMS]?
+Use getalby.com to create a lightning wallet and LURL - this can be included in your GitHub Digital Portfolio as a means of ID and a tipping mechanism.
+
+
+Multiple Choice Questions
+What is the Lightning Network?
+A) A centralised payment system
+B) A decentralised payment system
+C) A cryptocurrency exchange platform
+D) A social media platform
+
+Answer: B
+
+ What is the purpose of micropayment channels in the Lightning Network?
+A) To hold large amounts of Bitcoin
+B) To facilitate off-chain instant payments
+C) To mine new Bitcoin blocks
+D) To verify Bitcoin transactions
+
+Answer: B
+
+ How are transactions settled in the Lightning Network?
+A) By broadcasting them to the Bitcoin blockchain
+B) By sending them to a centralised payment processor
+C) By exchanging digital signatures between parties
+D) By using a third-party escrow service
+
+Answer: C
+
+ What is the role of decrementing timelocks in the Lightning Network?
+A) To prevent double-spending attacks
+B) To ensure that transactions are confirmed quickly
+C) To allow for refunds in case of payment failures
+D) To enforce the sequence of transactions in a payment channel
+
+Answer: D
+
+ What is a pay-to-contract in the Lightning Network?
+A) A type of smart contract that allows for instant payments
+B) A legal document that specifies the terms of a payment agreement
+C) A cryptographic proof of payment that can be verified by the recipient
+D) A payment channel that is funded by multiple parties
+
+Answer: C
